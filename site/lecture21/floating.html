@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Floating elements</title>
+        <style>
+            div {
+                background-color: #00FFFF;
+            }
+            p {
+                width: 50px;
+                height: 50px;
+                border: 1px solid black;
+                /* float: left; */
+                margin-right: 10px;
+            }
+
+            #p1 {
+                background-color: #A52A2A;
+                float: left;
+                height: 150px;
+            }
+
+            #p2 {
+                background-color: #DEB887;
+                float: right;
+                height: 100px;
+                /* clear: right; */
+            }
+
+            #p3 {
+                background-color: #5F9EA0;
+                /* float: right; */
+                clear: both;
+            }
+
+            #p4 {
+                background-color: #FF7F50;
+                /* float: right; */
+                /* clear: right; */
+            }
+
+            section {
+                clear: left;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Floating elements</h1>
+
+        <div>
+            <p id="p1"></p>
+            <p id="p2"></p>
+            <p id="p3"></p>
+            <p id="p4"></p>
+            <section>This is a  regular content continuing after the paragraph boxes.</section>
+        </div>
+
+    </body>
+</html>

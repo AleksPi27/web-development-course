@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Floating elements</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+          
+            p {
+                width: 40%;
+                /* padding: 10px; */
+                border: 1px solid black;
+                /* float: left; */
+                margin: 20px;
+            }
+
+            #p1 {
+                /* background-color: #A52A2A; */
+                float: left;
+                /* height: 150px; */
+            }
+
+            #p2 {
+                /* background-color: #DEB887; */
+                float: right;
+                /* height: 100px; */
+                /* clear: right; */
+            }
+
+            
+
+            section {
+                clear: left;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Two column design</h1>
+
+        <div>
+            <p id="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Pellentesque facilisis magna ac hendrerit sagittis. Proin egestas, magna a facilisis fermentum, mi arcu dignissim mauris,
+                  in ultrices sem elit eget est. Etiam fringilla lectus vel tortor dictum, quis ullamcorper neque interdum.</p>
+            <p id="p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque facilisis magna ac hendrerit sagittis.
+                 Proin egestas, magna a facilisis fermentum, mi arcu dignissim mauris, in ultrices sem elit eget est.
+                  Etiam fringilla lectus vel tortor dictum, quis ullamcorper neque interdum. Donec efficitur tellus eu est cursus faucibus.
+                   Aliquam in imperdiet velit, eget cursus ante. Sed nec turpis sagittis, consequat odio ac, semper felis.
+                    Donec pretium efficitur nunc, id feugiat arcu tristique a. Nam eget libero tristique, convallis nunc et, tincidunt quam. Donec diam sapien, ultrices ut ante at, pellentesque venenatis erat.
+                 Vivamus eleifend mattis nunc eu consectetur. Praesent facilisis magna consequat placerat commodo.</p>
+            <section>This is a  regular content continuing after the paragraph boxes.</section>
+        </div>
+
+    </body>
+</html>

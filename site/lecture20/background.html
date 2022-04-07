@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>The Box Model</title>
+
+    <style>
+
+      #box {
+        background-color: blue;
+        padding: 10px 20px 10px 30px;
+        border: 15px solid yellow;
+        margin: 40px;
+        width: 1400px;
+        height: 1400px;
+        box-sizing: border-box;
+        background: url("kvokka3.jpg") no-repeat right center;
+        /*  background-image: url("kvokka3.jpg"); */
+        /* background-repeat: repeat; */
+        /* background-position: left; */
+        background-size: cover; 
+      }
+/* top right bottom left */
+      #content {
+        background-color: #90ee90;
+      }
+
+      h1 {
+        margin-bottom: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Box Model</h1>
+
+    <div id="box">
+      <div id="content">
+        Lorem ipsum sit amet, consectetur adipisicing elit.
+      </div>
+    </div>
+  </body>
+</html>

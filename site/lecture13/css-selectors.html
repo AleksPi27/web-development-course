@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Practicing in using different selectors</title>
+    </head>
+    <body>
+        <h3>Element selector</h3>
+            <div>
+            <style>
+                p {
+                    color: red;
+                    opacity: 0.6;
+                    background-color: rgb(49, 49, 7);
+                    font-style: italic;
+                }
+            </style>
+            <p>This is an example of using element selector</p>
+        </div>
+
+        <h3>Class selector</h3>
+        <div>
+            <style>
+                .blue, #d {
+                    color:blue;
+                    font-weight: bold;
+                    background-color: aliceblue;
+                    opacity: .9;
+                }
+            </style>
+            <p class="blue">The first tag in an example of class selector</p>
+            <p id="d">The second tag in an example of class selector</p>
+            <div class="blue">The third tag in an example of class selector</div>
+        </div>
+    </body>
+</html>

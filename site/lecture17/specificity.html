@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Conflict resolution</title>
+    <style>
+        header.navigation p {
+            color: blue;
+        }
+
+        header.navigation p.class1 {
+            color: red;
+        }
+        
+      p {
+        color: green !important;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Inheritance example</h1>
+        <header class="navigation">
+            <p class="class1">
+                This paragraph has class attribute.
+            </p>
+        </header>
+    <p>This rule says that there is a CSS styles table. It defines priorities of each style, namely specificity (like score)</p>
+  </body>
+</html>
